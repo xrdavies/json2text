@@ -23,6 +23,18 @@ to the key-value pairs
 ('about.Balance', 'Balance'), ('about.Owner', 'Owner'), ('about.Contracts', 'Contracts'), ('about.Venture', 'Venture'), ('about.panel', 'Venture panel'), ('about.Quitting', 'Quitting'), ('about.resign', 'Resign Moderator'), ('about.resignMember', 'Resign Moderator')
 ```
 
+## Install
+
+Install from code.
+```bash
+python setup.py install
+```
+
+Install with pip
+```bash
+pip install json2text
+```
+
 ## Usage
 
 ```python
