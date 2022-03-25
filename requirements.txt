@@ -1,0 +1,6 @@
+attrs==21.4.0
+json2text==0.0.1
+jsonmerge==1.8.0
+jsonschema==4.4.0
+pyrsistent==0.18.1
+xlwt==1.3.0
