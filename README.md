@@ -19,8 +19,32 @@ From
 ```
 
 to the key-value pairs
+```json
+[("about.Balance", "Balance"), ("about.Owner", "Owner"), ("about.Contracts", "Contracts"), ("about.Venture", "Venture"), ("about.panel", "Venture panel"), ("about.Quitting", "Quitting"), ("about.resign", "Resign Moderator"), ("about.resignMember", "Resign Moderator")]
 ```
-('about.Balance', 'Balance'), ('about.Owner', 'Owner'), ('about.Contracts', 'Contracts'), ('about.Venture', 'Venture'), ('about.panel', 'Venture panel'), ('about.Quitting', 'Quitting'), ('about.resign', 'Resign Moderator'), ('about.resignMember', 'Resign Moderator')
+
+
+Also can convert from
+
+```json
+[("about.Balance", "Balance"), ("about.Owner", "Owner"), ("about.Contracts", "Contracts"), ("about.Venture", "Venture"), ("about.panel", "Venture panel"), ("about.Quitting", "Quitting"), ("about.resign", "Resign Moderator"), ("about.resignMember", "Resign Moderator")]
+```
+
+to 
+
+```json
+{
+  "about": {
+    "Balance": "Balance",
+    "Owner": "Owner",
+    "Contracts": "Contracts",
+    "Venture": "Venture",
+    "panel": "Venture panel",
+    "Quitting": "Quitting",
+    "resign": "Resign Moderator",
+    "resignMember": "Resign Moderator"
+  }
+}
 ```
 
 ## Install
